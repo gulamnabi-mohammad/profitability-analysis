@@ -15,7 +15,7 @@ st.title("📊 Product Line Profitability & Margin Analysis")
 # -----------------------------
 @st.cache_data
 def load_data():
-    file_path = os.path.join("data", "Nassau Candy Distributor.csv")
+    file_path = os.path.join("profitability-analysis", "data", "nassau_data.csv")
     
     df = pd.read_csv(file_path)
 
